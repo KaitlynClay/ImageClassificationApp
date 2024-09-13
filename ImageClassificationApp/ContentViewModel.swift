@@ -31,7 +31,7 @@ class ContentViewModel: NSObject, ObservableObject, AVCaptureVideoDataOutputSamp
     
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
         guard let pixelBuffer: CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else { return }
-        guard let model = try? VNCoreMLModel(for: DBC().model) else { return }
+        guard let model = try? VNCoreMLModel(for: MobileNet().model) else { return }
         let request = VNCoreMLRequest(model: model) { (finishedReq, err) in
             DispatchQueue.main.async {
                 self.processResults(for: finishedReq)
