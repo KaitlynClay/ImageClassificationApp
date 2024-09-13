@@ -17,6 +17,7 @@ struct ContentView: View {
                 Text("Prediction: ")
                 Text(viewModel.prediction)
             }
+            
             HStack{
                 Text("Confidence: ")
                 Text(viewModel.confidence)
@@ -24,11 +25,16 @@ struct ContentView: View {
             
             CameraPreview(session: viewModel.session)
                 .onAppear{
-                    dispatchQueue.global().async{
-                        self.viewModel.setupSession()}
+                    DispatchQueue.global().async{
+                        self.viewModel.setupSession()
+                    }
                 }
         }
-        
+        .background(
+            Image(.bluBD)
+                .resizable()
+                .scaledToFit()
+                .ignoresSafeArea())
     }
 }
 

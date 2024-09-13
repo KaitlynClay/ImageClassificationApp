@@ -22,6 +22,8 @@
 		3FEE56B92C94A2CE009FFA41 /* Blu_BD.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE56B62C94A2CE009FFA41 /* Blu_BD.png */; };
 		3FEE56BA2C94B6C5009FFA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE568C2C94974D009FFA41 /* Assets.xcassets */; };
 		3FEE56BB2C94B6C6009FFA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE568C2C94974D009FFA41 /* Assets.xcassets */; };
+		3FEE56BE2C94C05F009FFA41 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE56BD2C94C05F009FFA41 /* CameraPreview.swift */; };
+		3FEE56C02C94C447009FFA41 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE56BF2C94C447009FFA41 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		3FEE56A52C94974D009FFA41 /* ImageClassificationAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3FEE56B22C949A97009FFA41 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 		3FEE56B62C94A2CE009FFA41 /* Blu_BD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blu_BD.png; sourceTree = "<group>"; };
+		3FEE56BC2C94BE4F009FFA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3FEE56BD2C94C05F009FFA41 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		3FEE56BF2C94C447009FFA41 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +109,11 @@
 		3FEE56872C94974D009FFA41 /* ImageClassificationApp */ = {
 			isa = PBXGroup;
 			children = (
+				3FEE56BC2C94BE4F009FFA41 /* Info.plist */,
 				3FEE56882C94974D009FFA41 /* ImageClassificationAppApp.swift */,
 				3FEE568A2C94974D009FFA41 /* ContentView.swift */,
+				3FEE56BF2C94C447009FFA41 /* ContentViewModel.swift */,
+				3FEE56BD2C94C05F009FFA41 /* CameraPreview.swift */,
 				3FEE56B22C949A97009FFA41 /* MobileNet.mlmodel */,
 				3FEE568C2C94974D009FFA41 /* Assets.xcassets */,
 				3FEE56B62C94A2CE009FFA41 /* Blu_BD.png */,
@@ -275,8 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FEE568B2C94974D009FFA41 /* ContentView.swift in Sources */,
+				3FEE56BE2C94C05F009FFA41 /* CameraPreview.swift in Sources */,
 				3FEE56892C94974D009FFA41 /* ImageClassificationAppApp.swift in Sources */,
 				3FEE56B32C949A97009FFA41 /* MobileNet.mlmodel in Sources */,
+				3FEE56C02C94C447009FFA41 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +455,9 @@
 				DEVELOPMENT_TEAM = H5C69S73A4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageClassificationApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -474,6 +487,9 @@
 				DEVELOPMENT_TEAM = H5C69S73A4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageClassificationApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
