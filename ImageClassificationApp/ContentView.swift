@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var viewModel = ContentViewModel()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            HStack{
+                Text("Prediction: ")
+                Text(viewModel.prediction)
+            }
+            HStack{
+                Text("Confidence: ")
+                Text(viewModel.confidence)
+            }
+            
+            CameraPreview(session: viewModel.session)
+                .onAppear{
+                    dispatchQueue.global().async{
+                        self.viewModel.setupSession()}
+                }
         }
-        .padding()
+        
     }
 }
 

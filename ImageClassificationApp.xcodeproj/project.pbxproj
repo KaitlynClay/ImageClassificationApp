@@ -14,6 +14,14 @@
 		3FEE569A2C94974D009FFA41 /* ImageClassificationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE56992C94974D009FFA41 /* ImageClassificationAppTests.swift */; };
 		3FEE56A42C94974D009FFA41 /* ImageClassificationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE56A32C94974D009FFA41 /* ImageClassificationAppUITests.swift */; };
 		3FEE56A62C94974D009FFA41 /* ImageClassificationAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE56A52C94974D009FFA41 /* ImageClassificationAppUITestsLaunchTests.swift */; };
+		3FEE56B32C949A97009FFA41 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE56B22C949A97009FFA41 /* MobileNet.mlmodel */; };
+		3FEE56B42C949A97009FFA41 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE56B22C949A97009FFA41 /* MobileNet.mlmodel */; };
+		3FEE56B52C949A97009FFA41 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE56B22C949A97009FFA41 /* MobileNet.mlmodel */; };
+		3FEE56B72C94A2CE009FFA41 /* Blu_BD.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE56B62C94A2CE009FFA41 /* Blu_BD.png */; };
+		3FEE56B82C94A2CE009FFA41 /* Blu_BD.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE56B62C94A2CE009FFA41 /* Blu_BD.png */; };
+		3FEE56B92C94A2CE009FFA41 /* Blu_BD.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE56B62C94A2CE009FFA41 /* Blu_BD.png */; };
+		3FEE56BA2C94B6C5009FFA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE568C2C94974D009FFA41 /* Assets.xcassets */; };
+		3FEE56BB2C94B6C6009FFA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE568C2C94974D009FFA41 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,8 @@
 		3FEE569F2C94974D009FFA41 /* ImageClassificationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageClassificationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEE56A32C94974D009FFA41 /* ImageClassificationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationAppUITests.swift; sourceTree = "<group>"; };
 		3FEE56A52C94974D009FFA41 /* ImageClassificationAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FEE56B22C949A97009FFA41 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		3FEE56B62C94A2CE009FFA41 /* Blu_BD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blu_BD.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +106,9 @@
 			children = (
 				3FEE56882C94974D009FFA41 /* ImageClassificationAppApp.swift */,
 				3FEE568A2C94974D009FFA41 /* ContentView.swift */,
+				3FEE56B22C949A97009FFA41 /* MobileNet.mlmodel */,
 				3FEE568C2C94974D009FFA41 /* Assets.xcassets */,
+				3FEE56B62C94A2CE009FFA41 /* Blu_BD.png */,
 				3FEE568E2C94974D009FFA41 /* Preview Content */,
 			);
 			path = ImageClassificationApp;
@@ -233,6 +245,7 @@
 			files = (
 				3FEE56902C94974D009FFA41 /* Preview Assets.xcassets in Resources */,
 				3FEE568D2C94974D009FFA41 /* Assets.xcassets in Resources */,
+				3FEE56B72C94A2CE009FFA41 /* Blu_BD.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +253,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEE56BA2C94B6C5009FFA41 /* Assets.xcassets in Resources */,
+				3FEE56B82C94A2CE009FFA41 /* Blu_BD.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +262,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEE56BB2C94B6C6009FFA41 /* Assets.xcassets in Resources */,
+				3FEE56B92C94A2CE009FFA41 /* Blu_BD.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +276,7 @@
 			files = (
 				3FEE568B2C94974D009FFA41 /* ContentView.swift in Sources */,
 				3FEE56892C94974D009FFA41 /* ImageClassificationAppApp.swift in Sources */,
+				3FEE56B32C949A97009FFA41 /* MobileNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEE56B42C949A97009FFA41 /* MobileNet.mlmodel in Sources */,
 				3FEE569A2C94974D009FFA41 /* ImageClassificationAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +295,7 @@
 			files = (
 				3FEE56A62C94974D009FFA41 /* ImageClassificationAppUITestsLaunchTests.swift in Sources */,
 				3FEE56A42C94974D009FFA41 /* ImageClassificationAppUITests.swift in Sources */,
+				3FEE56B52C949A97009FFA41 /* MobileNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
