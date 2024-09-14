@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FCCEB372C95077A009E78A5 /* DogImageClassification 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCEB362C95077A009E78A5 /* DogImageClassification 1.mlmodel */; };
 		3FEE56892C94974D009FFA41 /* ImageClassificationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE56882C94974D009FFA41 /* ImageClassificationAppApp.swift */; };
 		3FEE568B2C94974D009FFA41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE568A2C94974D009FFA41 /* ContentView.swift */; };
 		3FEE568D2C94974D009FFA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE568C2C94974D009FFA41 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FCCEB362C95077A009E78A5 /* DogImageClassification 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "DogImageClassification 1.mlmodel"; sourceTree = "<group>"; };
 		3FEE56852C94974D009FFA41 /* ImageClassificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageClassificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEE56882C94974D009FFA41 /* ImageClassificationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationAppApp.swift; sourceTree = "<group>"; };
 		3FEE568A2C94974D009FFA41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				3FEE56BF2C94C447009FFA41 /* ContentViewModel.swift */,
 				3FEE56BD2C94C05F009FFA41 /* CameraPreview.swift */,
 				3FEE56B22C949A97009FFA41 /* MobileNet.mlmodel */,
+				3FCCEB362C95077A009E78A5 /* DogImageClassification 1.mlmodel */,
 				3FEE568C2C94974D009FFA41 /* Assets.xcassets */,
 				3FEE56B62C94A2CE009FFA41 /* Blu_BD.png */,
 				3FEE568E2C94974D009FFA41 /* Preview Content */,
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCCEB372C95077A009E78A5 /* DogImageClassification 1.mlmodel in Sources */,
 				3FEE568B2C94974D009FFA41 /* ContentView.swift in Sources */,
 				3FEE56BE2C94C05F009FFA41 /* CameraPreview.swift in Sources */,
 				3FEE56892C94974D009FFA41 /* ImageClassificationAppApp.swift in Sources */,
